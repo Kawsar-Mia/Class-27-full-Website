@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.responsive-test{
+    background: red;
+    color: #fff;
+    font-size: 50px  ;
+    text-align: center;
+}
+
+@media (max-width: 1400px) {
+    .responsive-test{
+        background: yellow;
+        color: aquamarine;
+    }
+}
+
+@media (max-width: 1399px) {
+    .responsive-test{
+        background: orchid;
+        color: #fff;
+    }
+}
+
+@media (max-width:1200px) {
+    .responsive-test{
+        background: green;
+        color: yellow;
+    }
+}
+
+@media (max-width: 992px) {
+    .responsive-test{
+        background: lightcoral;
+        color: lightblue;
+    }
+}
+
+@media (max-width: 768px) {
+    .responsive-test{
+        background: greenyellow;
+        color: red;
+    }
+}
+
+@media (max-width: 576px) {
+    .responsive-test{
+        background: blue;
+        color: chartreuse;
+    }
+}
